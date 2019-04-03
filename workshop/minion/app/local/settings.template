@@ -1,0 +1,15 @@
+#Usuário e senha do dispostivo
+usuarioKonker = ''
+senhaKonker = ''
+dispositivoKonker = "nomeDispositivoCadastradoKonker"
+
+#Intervalo em que o minion irá verificar se há comandos
+intervaloListening = 60 #segundos
+
+#Intervalo em que o minion irá enviar health para plataforma
+intervaloHelth = 300 # segundos
+
+#endereços de conexao da plataforma
+url_konker_pub = 'http://data.demo.konkerlabs.net:80/pub/'
+url_konker_sub = 'http://data.demo.konkerlabs.net:80/sub/'
+
